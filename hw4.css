@@ -1,0 +1,101 @@
+body {
+	margin: 0;
+	background: url('vintage-film.jpg') no-repeat center top;
+	background-size: cover;
+}
+
+header {
+	text-align: center;
+	padding-top: 20px;
+}
+
+header img {
+	display: inline-block;
+	width: 5%;
+	padding-right: 5%;
+}
+
+header h1 {
+	padding-top: 5px;
+	margin: 0;
+	position: relative;
+    display: inline;
+    bottom: 20px;
+}
+
+header h1::after {
+	content: "";
+	display: block;
+	height: 50px;
+	background-color: #1d0c05; /* #2a1615 */
+	margin-top: 35px;
+}
+
+.intro {
+	text-align: center;
+}
+
+p.intro {
+	padding: 0 10% 60px;
+}
+
+.form-box {
+	text-align: center;
+	background-color: rgba(156, 131, 109, 0.6);
+	border: 2px solid #1d0c05;
+    box-shadow: 1px 4px 20px #1d0c05;
+	width: 50%;
+    margin: 0 auto;
+}
+
+p {
+	margin: 0; 
+	padding-bottom: 20px;
+	font-family: 'Slabo 27px', serif;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+	margin: 0;
+	padding: 40px 0;
+	text-align: center;
+}
+
+form label input {
+	margin-left: 1%;
+	width: 30%;
+	margin-bottom: 20px;
+}
+
+form select {
+	width: 40%;
+}
+
+form input[type="submit"] {
+	font-size: 16px;
+	width: 16%;
+}
+
+.listing {
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 10px 10%;
+	border: 2px solid #1d0c05;
+	margin: 40px 10%;
+}
+
+.listing > div {
+	display: flex;
+	max-height: 800px;
+	flex-flow: column wrap;
+}
+
+.listing a {
+	color: #4F2411;
+}
+
+.listing a:hover {
+	opacity: 0.8;
+}
